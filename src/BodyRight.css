@@ -1,0 +1,35 @@
+.bodyRight {
+  background: rgb(53, 53, 53);
+  width: 96%;
+  height: 3.5rem;
+  position: fixed;
+  top: 5%;
+  left: 4%;
+  z-index: -1;
+  display: flex;
+  justify-content: space-around;
+}
+.cat {
+  position: relative;
+  width: 90%;
+  height: 3.5rem;
+  background: rgb(53, 53, 53);
+  overflow-x: auto;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.bodyRight svg {
+  font-size: 1.9rem;
+  color: white;
+  margin: auto;
+}
+.cat p {
+  padding: 4px 8px;
+  background: white;
+  margin: 8px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

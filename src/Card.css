@@ -1,0 +1,34 @@
+.card {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background: #181818;
+  margin: auto;
+  color: white;
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.card h2 {
+  font-size: larger;
+  font-weight: 500;
+}
+.card p {
+  font-size: small;
+  font-weight: 300;
+}
+.card h4 {
+  background: rgba(18, 18, 18, 0.8);
+  color: white;
+  position: absolute;
+  left: 87.5%;
+  bottom: 40%;
+  width: 50px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

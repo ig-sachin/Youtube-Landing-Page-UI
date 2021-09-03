@@ -1,0 +1,22 @@
+.bodyLeft {
+  position: fixed;
+  top: 5%;
+  width: 4%;
+  height: 96%;
+  background: rgba(0, 0, 0, 0.81);
+  display: flex;
+  flex-direction: column;
+}
+.bodyLeft div {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.5rem;
+  color: #fff;
+  padding: 1.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.pos {
+  position: relative;
+  top: -2rem;
+}

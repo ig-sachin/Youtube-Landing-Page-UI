@@ -1,0 +1,9 @@
+.line {
+  width: 100%;
+  height: 2px;
+  border: 2px solid red;
+}
+.header__cotainer {
+  display: flex;
+  flex-direction: column;
+}
